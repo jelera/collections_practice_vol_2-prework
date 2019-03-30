@@ -13,3 +13,14 @@ def begins_with_r(words)
   
   output
 end
+
+def contain_a(words)
+  letter = "a"
+
+
+  output = words.find_all do |word|
+    word.count(letter) > 0
+  end
+
+  
+end
