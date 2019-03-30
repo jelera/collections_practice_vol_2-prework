@@ -10,7 +10,7 @@ def begins_with_r(words)
       return false
     end
   end
-  
+
   output
 end
 
@@ -22,5 +22,5 @@ def contain_a(words)
     word.count(letter) > 0
   end
 
-  
+
 end
