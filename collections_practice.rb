@@ -3,7 +3,14 @@
 def begins_with_r(words)
   letter = "r"
 
-  words.find_all do |word|
-    word.start_with?(letter)
+  output = false
+
+  words.each do |word|
+    if !word.start_with?(letter)
+      return false
+    else
+      output = true
+    end
   end
+  output
 end
