@@ -23,5 +23,8 @@ end
 def first_wa(words)
   letters = "wa"
 
+  words.find do |word|
+    word.start_with?(letters)
+  end
 
 end
