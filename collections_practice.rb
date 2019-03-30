@@ -11,5 +11,5 @@ def begins_with_r(words)
     end
   end
   
-  output 
+  output
 end
