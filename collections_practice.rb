@@ -29,5 +29,12 @@ def first_wa(words)
       word.to_s.start_with?(letters)
     end
   end
+end
+
+def remove_non_strings(arr)
+
+  arr.delete_if do |item|
+    !(item.is_a? String)
+  end
 
 end
