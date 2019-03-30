@@ -31,5 +31,3 @@ def first_wa(words)
   end
 
 end
-
-first_wa(["candy", "wall"])
