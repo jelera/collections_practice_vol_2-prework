@@ -27,7 +27,6 @@ def first_wa(words)
   output = words.find do |word|
     word.start_with?(letters)
   end
-  binding.pry
 
 end
 
