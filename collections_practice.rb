@@ -17,7 +17,7 @@ end
 def contain_a(words)
   letter = "a"
 
-  output = words.find_all { |word| word.count(letter) > 0 } 
+  output = words.find_all { |word| word.count(letter) > 0 }
 end
 
 def first_wa(words)
