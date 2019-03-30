@@ -1,3 +1,4 @@
+require "pry"
 # your code goes here
 
 def begins_with_r(words)
@@ -28,3 +29,5 @@ def first_wa(words)
   end
 
 end
+
+first_wa(["candy", "wall"])
