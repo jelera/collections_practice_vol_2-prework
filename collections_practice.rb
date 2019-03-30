@@ -25,7 +25,9 @@ def first_wa(words)
   letters = "wa"
 
   output = words.find do |word|
-    word.start_with?(letters)
+    if word.is_a? String
+      word.to_s.start_with?(letters)
+    end
   end
 
 end
